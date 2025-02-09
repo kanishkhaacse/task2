@@ -1,0 +1,43 @@
+.form {
+    height:500px;
+    width: 340px;
+    margin-left:90px;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(183, 142, 239);
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(231, 175, 175, 0.1);
+    text-align: center;
+    padding-top: 30px;
+}
+.form-title {
+    font-size: 20px;
+    font-weight: bold;
+    color: #4a148c; 
+    margin-bottom: 20px; 
+}
+.input-field {
+    display: flex;
+    flex-direction: column;
+    gap: 30px; 
+    margin-top: 80px;
+    margin-left:30px;
+}
+.input-field input {
+    width: 280px;
+    padding: 12px;
+    background-color: #d6b9f6;
+    color: #4a148c;
+    border: 1px solid #e698f9;
+    border-radius: 4px;
+    font-size: 16px;
+}
+.input-field input:focus {
+    border-color: #c86df6;
+    outline: none;
+    box-shadow: 0px 0px 5px rgba(146, 42, 236, 0.5);
+}
+.error-message {
+    color: red;
+    font-size: 14px;
+    margin-top: 10px;
+}
